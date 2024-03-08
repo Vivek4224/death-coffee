@@ -1,0 +1,94 @@
+.footer_container {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    padding: 5rem 5rem 0rem 0rem;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accounts p {
+    color: white;
+    font-family: "Fenomen";
+}
+
+.accounts li {
+    list-style: none;
+}
+
+.accounts li a {
+    text-decoration: none;
+    color: white;
+    transition: all .3s;
+}
+
+.accounts li a:hover {
+    text-decoration: underline;
+    color: #9e151a;
+}
+
+.legal p {
+    color: white;
+    font-family: "Fenomen";
+}
+
+.legal li {
+    list-style: none;
+}
+
+.legal li a {
+    text-decoration: none;
+    color: white;
+    transition: all .3s;
+}
+
+.legal li a:hover {
+    text-decoration: underline;
+    color: #9e151a;
+}
+
+.company p {
+    color: white;
+    font-family: "Fenomen";
+}
+
+.company li {
+    list-style: none;
+}
+
+.company li a {
+    text-decoration: none;
+    color: white;
+    transition: all .3s;
+}
+
+.company li a:hover {
+    text-decoration: underline;
+    color: #9e151a;
+}
+
+.copy_container {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+    padding-left: 9.5rem;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}

@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Fenomen;
+    src: url(../../../assets/font/Fenomen-Sans-Bold.woff2);
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Fenomen;
+    position: fixed;
+    z-index: 111;
+}
+
+.left_nav {
+    width: 100%;
+    display: flex;
+    height: 6rem;
+    list-style: none;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.left_nav li a {
+    color: white;
+    font-size: 18px;
+    transition: all .3s;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.left_li a:hover {
+    color: #E12727;
+    text-decoration: underline;
+}
+
+
+.center_nav {
+    text-align: center;
+    background-color: black;
+    height: 6rem;
+}
+
+.right_nav {
+    width: 100%;
+    display: flex;
+    height: 6rem;
+    list-style: none;
+    align-items: center;
+    background-color: black;
+    justify-content: space-evenly;
+    padding-left: 1.2rem;
+}
+
+.right_li a {
+    padding-right: 2.5rem;
+    color: white;
+    font-size: 18px;
+    transition: all .3s;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.right_li a:hover {
+    color: #E12727;
+    text-decoration: underline;
+}
+
+.last_icons {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
+.last_icons svg {
+    gap: 1rem;
+}
+
+.last_icons svg:hover {
+    color: #E12727;
+}

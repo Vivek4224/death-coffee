@@ -98,6 +98,7 @@
 
 .email_container input {
     width: 30%;
+    padding: 0.5rem;
     height: 2.4rem;
     box-shadow: none;
     border: none;

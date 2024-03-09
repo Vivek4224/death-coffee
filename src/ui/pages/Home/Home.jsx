@@ -34,6 +34,7 @@ import {
     CardTitle,
 } from "reactstrap";
 import { Slide } from "react-slideshow-image";
+import { NavLink } from "react-router-dom";
 
 export default function Home() {
     return (
@@ -1009,7 +1010,7 @@ export default function Home() {
 
                 <div className="email_container">
                     <h6>LET'S DRINK COFFEE AND THROW THINGS AT HAPPY PEOPLE</h6>
-                    <input type="text" placeholder="Enter Your Email Address" /><button>SIGN ME UP</button>
+                    <input type="text" placeholder="Enter Your Email Address" /><button><NavLink to={"/signup"} style={{ color: "white", textDecoration: "none" }}>SIGN ME UP</NavLink></button>
                 </div>
             </section>
         </>

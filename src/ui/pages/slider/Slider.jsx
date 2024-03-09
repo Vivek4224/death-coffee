@@ -14,6 +14,7 @@ export default function Slider() {
                     <div className="details1" style={{ position: "absolute", top: "8rem", left: "5rem", marginBottom: "1.5rem" }}>
                         <h1 style={{ fontSize: "3.5rem", fontFamily: "ravana", color: "white", lineHeight: "3.5rem" }}>SOMETHING'S <br /> BREWING WITH <br /> DROPKICK MURPHYS</h1>
                         <p style={{ fontFamily: " fenomenLight", color: "white", fontSize: "1.2rem", marginBottom: "1rem" }}>Reminisce on old times and stay tuned for a new collaboration with <br /> Dropkick Murphys ahead of their St. Patrick's Day Celebration in Boston.</p>
+                        <button className="slider_btn" style={{ padding: "0.8rem 1rem", backgroundColor: "#63181A", border: "none", color: "white", fontWeight: "900", fontFamily: "fenomen", letterSpacing: ".1rem", cursor: "pointer", marginRight: "2rem" }}>SHOP NOW</button>
                         <button style={{ padding: "0.8rem 1rem", backgroundColor: "#63181A", border: "none", color: "white", fontWeight: "900", fontFamily: "fenomen", letterSpacing: ".1rem", cursor: "pointer" }}>LEARN MORE</button>
                     </div>
                 </div>

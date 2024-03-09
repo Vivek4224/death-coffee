@@ -1,0 +1,34 @@
+.login_container {
+    width: 100%;
+    background-color: black;
+    padding-top: 10rem;
+    text-align: center;
+}
+
+.login_heading {
+    font-size: 3.5rem;
+    font-family: "ravana";
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.form input {
+    width: 35%;
+    padding: 0.5rem;
+}
+
+.f_field {
+    margin-bottom: 2rem;
+}
+
+.login_btn button {
+    padding: 0.6rem 2.2rem;
+    margin-top: 1rem;
+    background-color: #A42C35;
+    border: none;
+    font-family: "Fenomen";
+}
+
+.email_container {
+    margin-top: 2rem;
+}

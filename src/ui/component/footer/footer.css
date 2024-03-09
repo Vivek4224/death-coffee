@@ -5,6 +5,35 @@
     justify-content: center;
 }
 
+.email_container {
+    text-align: center;
+    background-color: #63181A;
+    padding: 2rem;
+    color: black;
+}
+
+.email_container h6 {
+    font-family: "Fenomen";
+    font-size: 1.2rem;
+}
+
+.email_container button {
+    padding: 0.5rem 1.5rem;
+    background-color: black;
+    color: white;
+    font-family: "Fenomen";
+    border: none;
+}
+
+.email_container input {
+    width: 30%;
+    padding: 0.5rem;
+    height: 2.4rem;
+    box-shadow: none;
+    border: none;
+    border: 1px solid black;
+}
+
 .logo {
     padding: 5rem 5rem 0rem 0rem;
 }

@@ -34,7 +34,6 @@ import {
     CardTitle,
 } from "reactstrap";
 import { Slide } from "react-slideshow-image";
-import { NavLink } from "react-router-dom";
 
 export default function Home() {
     return (
@@ -77,11 +76,11 @@ export default function Home() {
                                     $14.99
                                 </CardSubtitle>
                                 <CardText>
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                 </CardText>
                                 <Button
                                     style={{
@@ -116,11 +115,11 @@ export default function Home() {
                                     $19.99
                                 </CardSubtitle>
                                 <CardText>
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                 </CardText>
                                 <Button
                                     style={{
@@ -155,11 +154,11 @@ export default function Home() {
                                     $19.99
                                 </CardSubtitle>
                                 <CardText>
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                     <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star />
                                 </CardText>
                                 <Button
                                     style={{
@@ -194,11 +193,11 @@ export default function Home() {
                                     $19.99
                                 </CardSubtitle>
                                 <CardText>
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                     <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star />
                                 </CardText>
                                 <Button
                                     style={{
@@ -233,10 +232,10 @@ export default function Home() {
                                     $15.99
                                 </CardSubtitle>
                                 <CardText>
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                     <Star style={{ fill: "white" }} />
                                 </CardText>
                                 <Button
@@ -272,11 +271,11 @@ export default function Home() {
                                     $38.00
                                 </CardSubtitle>
                                 <CardText>
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                     <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star />
                                 </CardText>
                                 <Button
                                     style={{
@@ -311,11 +310,11 @@ export default function Home() {
                                     $125.00
                                 </CardSubtitle>
                                 <CardText>
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                     <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star />
                                 </CardText>
                                 <Button
                                     style={{
@@ -350,11 +349,11 @@ export default function Home() {
                                     $19.99
                                 </CardSubtitle>
                                 <CardText>
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                     <Star style={{ fill: "white" }} />
                                     <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star />
-                                    <Star />
                                 </CardText>
                                 <Button
                                     style={{
@@ -389,11 +388,11 @@ export default function Home() {
                                     $19.99
                                 </CardSubtitle>
                                 <CardText>
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                 </CardText>
                                 <Button
                                     style={{
@@ -428,11 +427,11 @@ export default function Home() {
                                     $25.00
                                 </CardSubtitle>
                                 <CardText>
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                     <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star />
                                 </CardText>
                                 <Button
                                     style={{
@@ -467,11 +466,11 @@ export default function Home() {
                                     $35.00
                                 </CardSubtitle>
                                 <CardText>
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                     <Star style={{ fill: "white" }} />
                                     <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star />
-                                    <Star />
                                 </CardText>
                                 <Button
                                     style={{
@@ -506,11 +505,11 @@ export default function Home() {
                                     $25.00
                                 </CardSubtitle>
                                 <CardText>
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                 </CardText>
                                 <Button
                                     style={{
@@ -589,11 +588,11 @@ export default function Home() {
                                     $25.00
                                 </CardSubtitle>
                                 <CardText>
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                 </CardText>
                                 <Button
                                     style={{
@@ -628,11 +627,11 @@ export default function Home() {
                                     $35.00
                                 </CardSubtitle>
                                 <CardText>
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                 </CardText>
                                 <Button
                                     style={{
@@ -667,11 +666,11 @@ export default function Home() {
                                     $38.00
                                 </CardSubtitle>
                                 <CardText>
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                     <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star />
                                 </CardText>
                                 <Button
                                     style={{
@@ -706,11 +705,11 @@ export default function Home() {
                                     $25.00
                                 </CardSubtitle>
                                 <CardText>
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                     <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star />
                                 </CardText>
                                 <Button
                                     style={{
@@ -745,11 +744,11 @@ export default function Home() {
                                     $25.99
                                 </CardSubtitle>
                                 <CardText>
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                 </CardText>
                                 <Button
                                     style={{
@@ -784,11 +783,11 @@ export default function Home() {
                                     $19.99
                                 </CardSubtitle>
                                 <CardText>
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                     <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star />
                                 </CardText>
                                 <Button
                                     style={{
@@ -823,11 +822,11 @@ export default function Home() {
                                     $26.99
                                 </CardSubtitle>
                                 <CardText>
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                     <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star />
                                 </CardText>
                                 <Button
                                     style={{
@@ -862,11 +861,11 @@ export default function Home() {
                                     $26.99
                                 </CardSubtitle>
                                 <CardText>
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                    <Star style={{ fill: "#63181A" }} color="#63181A" />
                                     <Star style={{ fill: "white" }} />
                                     <Star style={{ fill: "white" }} />
-                                    <Star style={{ fill: "white" }} />
-                                    <Star />
-                                    <Star />
                                 </CardText>
                                 <Button
                                     style={{
@@ -1001,16 +1000,13 @@ export default function Home() {
                         }}
                     >
                         JOIN THE FOLLOWING <br />
-                        <a href="https://www.instagram.com/deathwishcoffee/" style={{ fontSize: "1.5rem", color: "#951C23" }}>
+                        <a
+                            href="https://www.instagram.com/deathwishcoffee/"
+                            style={{ fontSize: "1.5rem", color: "#951C23" }}
+                        >
                             @DEATHWISHCOFFEE
                         </a>
                     </h1>
-
-                </div>
-
-                <div className="email_container">
-                    <h6>LET'S DRINK COFFEE AND THROW THINGS AT HAPPY PEOPLE</h6>
-                    <input type="text" placeholder="Enter Your Email Address" /><button><NavLink to={"/signup"} style={{ color: "white", textDecoration: "none" }}>SIGN ME UP</NavLink></button>
                 </div>
             </section>
         </>

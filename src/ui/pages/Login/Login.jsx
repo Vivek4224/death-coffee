@@ -39,10 +39,6 @@ export default function Login() {
                     </div>
                 </div>
             </div>
-            <div className="email_container">
-                <h6>LET'S DRINK COFFEE AND THROW THINGS AT HAPPY PEOPLE</h6>
-                <input type="text" placeholder="Enter Your Email Address" /><button><NavLink to={"/signup"} style={{ color: "white", textDecoration: "none" }}>SIGN ME UP</NavLink></button>
-            </div>
         </div>
     );
 }

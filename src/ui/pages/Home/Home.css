@@ -7,8 +7,8 @@
     padding: 1rem;
     text-align: center;
     font-family: ravana;
-    font-size: 4rem;
     margin-top: 4rem;
+    margin-bottom: 0;
 }
 
 .card_container {
@@ -74,36 +74,6 @@
     width: 100%;
     border-radius: 50%;
     padding: 1rem;
-}
-
-.email_container {
-    text-align: center;
-    background-color: #63181A;
-    padding: 2rem;
-    color: black;
-}
-
-.email_container h6 {
-    font-family: "Fenomen";
-    font-size: 1.2rem;
-}
-
-.email_container button {
-    padding: 0.5rem 1.5rem;
-    background-color: black;
-    color: white;
-    font-family: "Fenomen";
-    border: none;
-}
-
-.email_container input {
-    width: 30%;
-    padding: 0.5rem;
-    height: 2.4rem;
-    box-shadow: none;
-    border: none;
-    margin-top: 1.5rem;
-    border: 1px solid black;
 }
 
 @media screen and (max-width:1200px) {

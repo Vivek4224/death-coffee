@@ -24,7 +24,8 @@
 .login_btn button {
     padding: 0.6rem 2.2rem;
     margin-top: 1rem;
-    background-color: #A42C35;
+    background-color: #63181A;
     border: none;
     font-family: "Fenomen";
+    color: white;
 }

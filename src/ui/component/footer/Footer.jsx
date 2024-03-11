@@ -1,10 +1,16 @@
 import React from "react";
 import "./footer.css";
 import logo from "../../../assets/img/logo.avif";
+import { NavLink } from "react-router-dom";
+
 
 export default function Footer() {
     return (
         <div>
+            <div className="email_container">
+                <h6>LET'S DRINK COFFEE AND THROW THINGS AT HAPPY PEOPLE</h6>
+                <input type="text" placeholder="Enter Your Email Address" /><button><NavLink to={"/signup"} style={{ color: "white", textDecoration: "none" }}>SIGN ME UP</NavLink></button>
+            </div>
             <div className="footer_container">
 
                 <div className="logo">

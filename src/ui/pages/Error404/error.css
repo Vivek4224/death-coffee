@@ -1,0 +1,33 @@
+.error_container {
+    background-color: black;
+    width: 100%;
+    padding-bottom: 3.5rem;
+}
+
+.error_img {
+    width: 35%;
+    padding-top: 13rem;
+    margin: auto;
+}
+
+.error_img img {
+    width: 100%;
+}
+
+.empty {
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'ravana';
+    color: #63181A;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.best_seller {
+    background-color: black;
+}
+
+.heading {
+    margin-top: 0;
+}

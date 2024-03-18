@@ -16,7 +16,7 @@ const initialUser = {
     lastName: "",
     email: "",
     password: "",
-    userType: "",
+
 };
 
 export default function Signup() {
@@ -29,7 +29,7 @@ export default function Signup() {
         e.preventDefault();
         axios({
             method: "post",
-            url: "http://localhost:9999/user/signUp",
+            url: "http://localhost:9999/user/signup",
         })
             .then((res) => {
                 dispatch(login(res.data));
@@ -97,13 +97,13 @@ export default function Signup() {
                         textAlign: "start",
                     }}
                 >
-                    <Select
+                    {/* <Select
                         onChange={(e) => setUser({ ...user, userType: e?.userType })}
                         options={userType}
                         value={user?.userType}
                         // id=""
                         placeholder="User Type..."
-                    />
+                    /> */}
                 </div>
 
                 <button

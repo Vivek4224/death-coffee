@@ -137,13 +137,13 @@ export default function Header() {
                     <>
                         <div className="left_nav">
                             <li className="left_li">
-                                <NavLink to="/dashboard">Dashboard</NavLink>
+                                <NavLink to="/dashboard">DASHBOARD</NavLink>
                             </li>
                             <li className="left_li">
-                                <a href="#">Product</a>
+                                <a href="#">PRODUCTS</a>
                             </li>
                             <li className="left_li">
-                                <a href="#">MERCH</a>
+                                <a href="#">ORDERS</a>
                             </li>
                         </div>
                         <div className="center_nav">

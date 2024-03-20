@@ -1,15 +1,9 @@
 import React, { useState } from "react";
 import "./signup.css";
-import Select from "react-select";
 import { NavLink, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import axios from "axios";
 import { toast } from "react-toastify";
-
-const userType = [
-    { value: "user", label: "User" },
-    { value: "admin", label: "Admin" },
-];
 
 const initialUser = {
     firstName: "",
@@ -21,7 +15,6 @@ const initialUser = {
 
 export default function Signup() {
     let [user, setUser] = useState(initialUser);
-
     const navigate = useNavigate();
     const dispatch = useDispatch();
 
@@ -29,10 +22,11 @@ export default function Signup() {
         e.preventDefault();
         axios({
             method: "post",
-            url: "http://localhost:9999/user/signup",
+            url: "http://localhost:9999/user/signUp",
         })
             .then((res) => {
                 dispatch(login(res.data));
+                console.log("-->", res.data)
                 toast.success("User login success");
                 navigate("/");
             })
@@ -51,8 +45,8 @@ export default function Signup() {
                         type="text"
                         placeholder="First name"
                         required
-                        value={user?.firstName}
-                        onChange={(e) => setUser({ ...user, firstName: e?.target?.value })}
+                        value={user?.name}
+                        onChange={(e) => setUser({ ...user, name: e?.target?.value })}
                     />
                 </div>
 
@@ -62,7 +56,7 @@ export default function Signup() {
                         type="text"
                         placeholder="Last name"
                         required
-                        value={user?.lastName}
+                        // value={user?.lastName}
                         onChange={(e) => setUser({ ...user, lastName: e?.target?.value })}
                     />
                 </div>

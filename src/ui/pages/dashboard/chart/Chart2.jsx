@@ -10,21 +10,18 @@ class Chart2 extends Component {
         const options = {
             animationEnabled: true,
             exportEnabled: true,
-            theme: "light1", // "light1", "dark1", "dark2"
-            // title: {
-            //     text: "Year"
-            // },
+            theme: "dark1", // "light1", "dark1", "dark2"
             data: [{
                 type: "pie",
                 indexLabel: "{label}: {y}%",
                 startAngle: -90,
                 dataPoints: [
-                    { y: 20, label: "Airfare" },
-                    { y: 24, label: "Food & Drinks" },
-                    { y: 20, label: "Accomodation" },
-                    { y: 14, label: "Transportation" },
-                    { y: 12, label: "Activities" },
-                    { y: 10, label: "Misc" }
+                    { y: 20, label: "PRODUCT 1" },
+                    { y: 24, label: "PRODUCT 2" },
+                    { y: 20, label: "PRODUCT 3" },
+                    { y: 14, label: "PRODUCT 4" },
+                    { y: 12, label: "PRODUCT 5" },
+                    { y: 10, label: "PRODUCT 6" }
                 ]
             }]
         }

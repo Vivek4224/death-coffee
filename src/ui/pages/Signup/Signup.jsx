@@ -1,119 +1,205 @@
-import React, { useState } from "react";
-import "./signup.css";
-import { NavLink, useNavigate } from "react-router-dom";
-import { useDispatch } from "react-redux";
 import axios from "axios";
+import React, { useState } from "react";
+import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
+import { Button, Form, FormGroup, Input, Label } from "reactstrap";
+import { login } from '../Login/Login';
+import { useNavigate } from "react-router-dom";
 
 const initialUser = {
-    firstName: "",
-    lastName: "",
+    name: "",
     email: "",
+    number: "",
     password: "",
-
+    conPassword: "",
+    gender: "",
+    age: "",
+};
+const initialAddress = {
+    add: "",
+    city: "",
+    state: "",
+    pinCode: "",
 };
 
 export default function Signup() {
+
     let [user, setUser] = useState(initialUser);
+    let [address, setAddress] = useState(initialAddress);
     const navigate = useNavigate();
     const dispatch = useDispatch();
 
     const submitHandler = (e) => {
         e.preventDefault();
+        if (user.password !== user.conPassword)
+            return toast.error("Password and confirm password does not match");
         axios({
             method: "post",
             url: "http://localhost:9999/user/signUp",
+            data: { ...user, address: [address] },
         })
             .then((res) => {
-                dispatch(login(res.data));
-                console.log("-->", res.data)
-                toast.success("User login success");
-                navigate("/");
+                dispatch(login(res?.data));
+                toast.error("Something went Wrong!");
             })
             .catch((err) => {
-                toast.error("Somthing is wrong");
+                toast.success("User login success");
+                navigate("/");
             });
     };
 
     return (
-        <div className="signup_container">
-            <h1 className="heading_signup">Create Account</h1>
-            <form className="inputs" onSubmit={(e) => submitHandler(e)}>
-                <div className="first">
-                    <input
+        <div className="d-flex flex-column align-items-center p-4">
+            <h1>User Register Form</h1>
+            <hr style={{ width: "50%" }} />
+            <Form
+                onSubmit={(e) => submitHandler(e)}
+                className="w-50 border p-4 rounded-2"
+            >
+                <FormGroup>
+                    <Label for="name">Name</Label>
+                    <Input
                         id="name"
-                        type="text"
-                        placeholder="First name"
-                        required
+                        placeholder="Enter your name"
                         value={user?.name}
                         onChange={(e) => setUser({ ...user, name: e?.target?.value })}
-                    />
-                </div>
-
-                <div className="sec">
-                    <input
-                        // id="name"
                         type="text"
-                        placeholder="Last name"
                         required
-                        // value={user?.lastName}
-                        onChange={(e) => setUser({ ...user, lastName: e?.target?.value })}
                     />
-                </div>
+                </FormGroup>
 
-                <div className="third">
-                    <input
+                <FormGroup>
+                    <Label for="email">Email</Label>
+                    <Input
                         id="email"
-                        type="email"
-                        placeholder="Email"
-                        required
+                        placeholder="Enter your email"
                         value={user?.email}
                         onChange={(e) => setUser({ ...user, email: e?.target?.value })}
-                    />
-                </div>
-
-                <div className="fourth">
-                    <input
-                        id="password"
-                        type="text"
-                        placeholder="Password"
+                        type="email"
                         required
-                        value={user?.password}
-                        onChange={(e) => setUser({ ...user, password: e?.target?.value })}
                     />
-                </div>
+                </FormGroup>
+                <FormGroup>
+                    <Label for="number">Number</Label>
+                    <Input
+                        id="number"
+                        placeholder="Enter your number"
+                        value={user?.number}
+                        onChange={(e) => setUser({ ...user, number: e?.target?.value })}
+                        type="number"
+                        required
+                    />
+                </FormGroup>
+                <FormGroup>
+                    <Label for="age">Age</Label>
+                    <Input
+                        id="age"
+                        placeholder="Enter your age"
+                        value={user?.age}
+                        onChange={(e) => setUser({ ...user, age: e?.target?.value })}
+                        type="number"
+                        required
+                    />
+                </FormGroup>
+                <FormGroup tag="fieldset">
+                    <Label>Gender</Label>
+                    <FormGroup>
+                        <Input ed={user.gender === "male"} type="radio" />
+                        <Label>Male</Label>
+                    </FormGroup>
+                    <FormGroup>
+                        <Input checked={user.gender === "female"} type="radio" />
+                        <Label>Female</Label>
+                    </FormGroup>
+                </FormGroup>
 
-                <div
-                    style={{
-                        width: "40%",
-                        margin: " 1.2rem auto",
-                        color: "black",
-                        textAlign: "start",
-                    }}
-                >
-                    {/* <Select
-                        onChange={(e) => setUser({ ...user, userType: e?.userType })}
-                        options={userType}
-                        value={user?.userType}
-                        // id=""
-                        placeholder="User Type..."
-                    /> */}
-                </div>
-
-                <button
-                    style={{
-                        padding: "0.6rem 2.2rem",
-                        marginTop: "2rem",
-                        border: "none",
-                        backgroundColor: "#63181A",
-                        color: "white",
-                        fontFamily: "Fenomen",
-                        letterSpacing: "1px",
-                    }}
-                >
-                    Create
-                </button>
-            </form>
+                <FormGroup>
+                    <Label for="add">Add-1</Label>
+                    <Input
+                        placeholder="Enter your add"
+                        id="add"
+                        name="text"
+                        onChange={(e) => setAddress({ ...address, add: e?.target?.value })}
+                        type="textarea"
+                        required
+                    />
+                </FormGroup>
+                <FormGroup>
+                    <Label for="city">City</Label>
+                    <Input
+                        placeholder="Enter your City"
+                        id="city"
+                        name="text"
+                        onChange={(e) => setAddress({ ...address, city: e?.target?.value })}
+                        type="text"
+                        required
+                    />
+                </FormGroup>
+                <FormGroup>
+                    <Label for="state">State</Label>
+                    <Input
+                        placeholder="Enter your state"
+                        id="state"
+                        name="text"
+                        onChange={(e) =>
+                            setAddress({ ...address, state: e?.target?.value })
+                        }
+                        type="text"
+                        required
+                    />
+                </FormGroup>
+                <FormGroup>
+                    <Label for="pinCode">Pincode</Label>
+                    <Input
+                        placeholder="Enter your pinCode"
+                        id="pinCode"
+                        name="text"
+                        onChange={(e) =>
+                            setAddress({ ...address, pinCode: e?.target?.value })
+                        }
+                        type="number"
+                        required
+                    />
+                </FormGroup>
+                <FormGroup>
+                    <Label for="Password">Password</Label>
+                    <Input
+                        placeholder="Enter your Password"
+                        id="Password"
+                        name="text"
+                        onChange={(e) => setUser({ ...user, password: e?.target?.value })}
+                        type="number"
+                        required
+                    />
+                </FormGroup>
+                <FormGroup>
+                    <Label for="Password">Confirm password</Label>
+                    <Input
+                        placeholder="Enter your Password"
+                        id="Password"
+                        name="text"
+                        onChange={(e) =>
+                            setUser({ ...user, conPassword: e?.target?.value })
+                        }
+                        type="number"
+                        required
+                    />
+                </FormGroup>
+                <p>
+                    Already have account{" "}
+                    <span
+                        onClick={() => navigate("/login")}
+                        role="button"
+                        style={{ color: "blue", textDecoration: "underline" }}
+                    >
+                        login...!
+                    </span>
+                </p>
+                <Button color="danger" className="w-100">
+                    Submit
+                </Button>
+            </Form>
         </div>
     );
 }
+

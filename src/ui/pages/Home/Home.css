@@ -76,7 +76,7 @@
     padding: 1rem;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (min-width:1200px) {
     .description {
         margin-left: 12rem;
     }

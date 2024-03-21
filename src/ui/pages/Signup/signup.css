@@ -14,3 +14,8 @@ Label {
     font-family: "ravana";
     color: white;
 }
+
+.form-check-input:checked {
+    background-color: #63181A;
+    border-color: #63181A;
+}

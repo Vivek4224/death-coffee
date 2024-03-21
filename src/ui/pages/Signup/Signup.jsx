@@ -2,8 +2,7 @@ import axios from "axios";
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
-import { Button, Form, FormGroup, Input, Label } from "reactstrap";
-// import { login } from '../Login/Login';
+import { Form, FormGroup, Input, Label } from "reactstrap";
 import { useNavigate } from "react-router-dom";
 import './signup.css';
 
@@ -108,12 +107,12 @@ export default function Signup() {
                             <Label>Gender</Label>
                             <div className="d-flex gap-3">
                                 <FormGroup>
-                                    <Input ed={user.gender === "male"} type="radio" />
-                                    <Label className="ml-2">Male</Label>
+                                    <Input check={user.gender === "male"} type="radio" name="radio" />
+                                    <Label style={{ marginLeft: "5px" }}>Male</Label>
                                 </FormGroup>
                                 <FormGroup>
-                                    <Input checked={user.gender === "female"} type="radio" />
-                                    <Label>Female</Label>
+                                    <Input check={user.gender === "female"} type="radio" name="radio" />
+                                    <Label style={{ marginLeft: "5px" }}>Female</Label>
                                 </FormGroup>
                             </div>
                         </FormGroup>

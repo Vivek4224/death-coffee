@@ -1,20 +1,16 @@
-.signup_container {
+.form_container {
     background-color: black;
-    width: 100%;
-    text-align: center;
-    padding-bottom: 2rem;
+    padding-top: 10rem;
+    color: white;
+    padding-bottom: 3rem;
 }
 
-.heading_signup {
-    padding-top: 10rem;
-    text-align: center;
+Label {
+    font-family: "Fenomen";
+    font-size: 1rem;
+}
+
+.form_container h1 {
     font-family: "ravana";
     color: white;
-    font-size: 3.5rem;
-}
-
-.inputs input {
-    width: 40%;
-    margin-top: 1.2rem;
-    padding: 0.5rem;
 }

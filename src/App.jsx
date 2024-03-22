@@ -7,8 +7,7 @@ function App() {
   return (
     <>
       <Router />
-      <ToastContainer
-        closeOnClick={false} />
+      <ToastContainer />
     </>
   )
 }

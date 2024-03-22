@@ -7,9 +7,7 @@ export default function Dashboard() {
     return (
         <div>
             <div className="chart_container">
-                <div>
-                    <Chart />
-                </div>
+                <Chart />
                 <div className="heading">
                     <h1 style={{ borderTop: "2px solid #9F2D36", borderBottom: "2px solid #9F2D36", padding: "1rem" }}>
                         YEARLY SALE

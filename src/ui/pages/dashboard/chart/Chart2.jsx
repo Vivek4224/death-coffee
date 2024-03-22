@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import CanvasJSReact from "@canvasjs/react-charts";
 
-var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
+var CanvasJS = CanvasJSReact.CanvasJS;
+
 
 class Chart2 extends Component {
     render() {

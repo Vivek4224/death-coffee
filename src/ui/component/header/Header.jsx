@@ -81,7 +81,7 @@ export default function Header() {
                                     </a>
                                 </div>
 
-                                <div className="cart" style={{ paddingLeft: "1rem" }}>
+                                <div className="cart" style={{ paddingLeft: "1rem", marginRight: "-0.5rem" }}>
                                     <a href="#">
                                         {" "}
                                         <div className="login">
@@ -148,7 +148,7 @@ export default function Header() {
                         </div>
                         <div className="center_nav">
                             <NavLink to={"/"}>
-                                <img src={Logo} alt="" />
+                                <img src={Logo} alt="" style={{ paddingRight: "2rem" }} />
                             </NavLink>
                         </div>
                         <div className="right_nav">
@@ -203,7 +203,7 @@ export default function Header() {
                                     </a>
                                 </div>
 
-                                <div className="cart" style={{ paddingLeft: "1rem" }}>
+                                <div className="cart" style={{ paddingLeft: "1rem", marginRight: "-0.5rem" }}>
                                     <a href="#">
                                         {" "}
                                         <div className="login">

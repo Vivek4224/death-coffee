@@ -14,12 +14,11 @@ const authSlice = createSlice({
             localStorage.setItem("userLogin", JSON.stringify(payload.data));
             localStorage.setItem("token", JSON.stringify(payload.token));
         },
-        // logOut: (state, action) => {
-        //     console.log("----->");
-        //     state.user = {};
-        //     state.token = "";
-        //     localStorage.clear();
-        // },
+        logOut: (state, action) => {
+            state.user = {};
+            state.token = "";
+            localStorage.clear();
+        },
     },
 });
 

@@ -27,7 +27,7 @@ export default function Login() {
         })
             .then((res) => {
                 dispatch(login(res.data));
-                toast.success("User login success");
+                toast.success("User Login Success...✅");
 
                 if (res?.data?.data?.userType === "admin") {
                     navigate("/dashboard");
@@ -36,7 +36,7 @@ export default function Login() {
                 }
             })
             .catch((err) => {
-                toast.error("Somthing is wrong");
+                toast.error("Something Went Wrong...❌");
             });
 
     };

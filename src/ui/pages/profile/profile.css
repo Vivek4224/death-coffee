@@ -5,46 +5,31 @@
     background-color: black;
 }
 
-.img_section img {
-    width: 100%;
-}
-
 .profile_details {
-    width: 70%;
-    padding-top: 0rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    border: 2px solid #63181A;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 50%;
+    margin: auto;
 }
 
-.profile_details h2 {
-    color: white;
-    font-family: "ravana";
-    font-size: 3rem;
-}
-
-.profile_details h2 span {
+.profile_details span {
     color: #63181A;
 }
 
 .profile_details h5 {
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: "Fenomen";
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
-.profile_details p {
+.button button {
+    border: none;
+    background-color: #63181A;
     color: white;
     font-family: "Fenomen";
-}
-
-.about {
-    color: white;
-    font-family: "Fenomen";
-    font-size: 1.3rem;
-}
-
-.about span {
-    color: #63181A;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    width: 100%;
 }

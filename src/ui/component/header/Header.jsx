@@ -5,8 +5,7 @@ import Logo from "../../../assets/img/logo.avif";
 import { useSelector } from "react-redux";
 
 export default function Header() {
-
-    const data = useSelector(state => state.authSlice);
+    const data = useSelector((state) => state.authSlice);
 
     return (
         <>
@@ -41,25 +40,46 @@ export default function Header() {
                             </li>
 
                             <div className="last_icons">
-                                <div className="login">
-                                    <NavLink to={"/login"}>
-                                        {" "}
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="17"
-                                            height="23"
-                                            viewBox="0 0 17 23"
-                                            fill="none"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M8.82031 10.4301C11.5817 10.4301 13.8203 8.19148 13.8203 5.43005C13.8203 2.66863 11.5817 0.430054 8.82031 0.430054C6.05889 0.430054 3.82031 2.66863 3.82031 5.43005C3.82031 8.19148 6.05889 10.4301 8.82031 10.4301ZM8.82031 11.4301C4.40203 11.4301 0.820312 15.0118 0.820312 19.4301V22.4301H16.8203V19.4301C16.8203 15.0118 13.2386 11.4301 8.82031 11.4301Z"
-                                                fill="white"
-                                            ></path>
-                                        </svg>
-                                    </NavLink>
-                                </div>
+                                {data?.token ? (
+                                    <div className="login">
+                                        <NavLink to={"/profile"}>
+                                            {" "}
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="17"
+                                                height="23"
+                                                viewBox="0 0 17 23"
+                                                fill="none"
+                                            >
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    clip-rule="evenodd"
+                                                    d="M8.82031 10.4301C11.5817 10.4301 13.8203 8.19148 13.8203 5.43005C13.8203 2.66863 11.5817 0.430054 8.82031 0.430054C6.05889 0.430054 3.82031 2.66863 3.82031 5.43005C3.82031 8.19148 6.05889 10.4301 8.82031 10.4301ZM8.82031 11.4301C4.40203 11.4301 0.820312 15.0118 0.820312 19.4301V22.4301H16.8203V19.4301C16.8203 15.0118 13.2386 11.4301 8.82031 11.4301Z"
+                                                    fill="white"
+                                                ></path>
+                                            </svg>
+                                        </NavLink>
+                                    </div>
+                                ) : (
+                                    <div className="login">
+                                        <NavLink to={"/login"}>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="17"
+                                                height="23"
+                                                viewBox="0 0 17 23"
+                                                fill="none"
+                                            >
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    clip-rule="evenodd"
+                                                    d="M8.82031 10.4301C11.5817 10.4301 13.8203 8.19148 13.8203 5.43005C13.8203 2.66863 11.5817 0.430054 8.82031 0.430054C6.05889 0.430054 3.82031 2.66863 3.82031 5.43005C3.82031 8.19148 6.05889 10.4301 8.82031 10.4301ZM8.82031 11.4301C4.40203 11.4301 0.820312 15.0118 0.820312 19.4301V22.4301H16.8203V19.4301C16.8203 15.0118 13.2386 11.4301 8.82031 11.4301Z"
+                                                    fill="white"
+                                                ></path>
+                                            </svg>
+                                        </NavLink>
+                                    </div>
+                                )}
 
                                 <div className="search" style={{ paddingLeft: "1rem" }}>
                                     <a href="#">
@@ -81,7 +101,10 @@ export default function Header() {
                                     </a>
                                 </div>
 
-                                <div className="cart" style={{ paddingLeft: "1rem", marginRight: "-0.5rem" }}>
+                                <div
+                                    className="cart"
+                                    style={{ paddingLeft: "1rem", marginRight: "-0.5rem" }}
+                                >
                                     <a href="#">
                                         {" "}
                                         <div className="login">
@@ -163,25 +186,47 @@ export default function Header() {
                             </li>
 
                             <div className="last_icons">
-                                <div className="login">
-                                    <NavLink to={"/login"}>
-                                        {" "}
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="17"
-                                            height="23"
-                                            viewBox="0 0 17 23"
-                                            fill="none"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M8.82031 10.4301C11.5817 10.4301 13.8203 8.19148 13.8203 5.43005C13.8203 2.66863 11.5817 0.430054 8.82031 0.430054C6.05889 0.430054 3.82031 2.66863 3.82031 5.43005C3.82031 8.19148 6.05889 10.4301 8.82031 10.4301ZM8.82031 11.4301C4.40203 11.4301 0.820312 15.0118 0.820312 19.4301V22.4301H16.8203V19.4301C16.8203 15.0118 13.2386 11.4301 8.82031 11.4301Z"
-                                                fill="white"
-                                            ></path>
-                                        </svg>
-                                    </NavLink>
-                                </div>
+                                {data?.token ? (
+                                    <div className="login">
+                                        <NavLink to={"/profile"}>
+                                            {" "}
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="17"
+                                                height="23"
+                                                viewBox="0 0 17 23"
+                                                fill="none"
+                                            >
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    clip-rule="evenodd"
+                                                    d="M8.82031 10.4301C11.5817 10.4301 13.8203 8.19148 13.8203 5.43005C13.8203 2.66863 11.5817 0.430054 8.82031 0.430054C6.05889 0.430054 3.82031 2.66863 3.82031 5.43005C3.82031 8.19148 6.05889 10.4301 8.82031 10.4301ZM8.82031 11.4301C4.40203 11.4301 0.820312 15.0118 0.820312 19.4301V22.4301H16.8203V19.4301C16.8203 15.0118 13.2386 11.4301 8.82031 11.4301Z"
+                                                    fill="white"
+                                                ></path>
+                                            </svg>
+                                        </NavLink>
+                                    </div>
+                                ) : (
+                                    <div className="login">
+                                        <NavLink to={"/login"}>
+                                            {" "}
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="17"
+                                                height="23"
+                                                viewBox="0 0 17 23"
+                                                fill="none"
+                                            >
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    clip-rule="evenodd"
+                                                    d="M8.82031 10.4301C11.5817 10.4301 13.8203 8.19148 13.8203 5.43005C13.8203 2.66863 11.5817 0.430054 8.82031 0.430054C6.05889 0.430054 3.82031 2.66863 3.82031 5.43005C3.82031 8.19148 6.05889 10.4301 8.82031 10.4301ZM8.82031 11.4301C4.40203 11.4301 0.820312 15.0118 0.820312 19.4301V22.4301H16.8203V19.4301C16.8203 15.0118 13.2386 11.4301 8.82031 11.4301Z"
+                                                    fill="white"
+                                                ></path>
+                                            </svg>
+                                        </NavLink>
+                                    </div>
+                                )}
 
                                 <div className="search" style={{ paddingLeft: "1rem" }}>
                                     <a href="#">
@@ -203,7 +248,10 @@ export default function Header() {
                                     </a>
                                 </div>
 
-                                <div className="cart" style={{ paddingLeft: "1rem", marginRight: "-0.5rem" }}>
+                                <div
+                                    className="cart"
+                                    style={{ paddingLeft: "1rem", marginRight: "-0.5rem" }}
+                                >
                                     <a href="#">
                                         {" "}
                                         <div className="login">

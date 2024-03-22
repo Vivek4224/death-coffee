@@ -19,10 +19,16 @@ export default function Router() {
                     <Header />
                     <Routes>
                         <Route path='/' element={<Home />} />
+
+                        { /*--------- common -----------*/}
                         <Route path='/login' element={<Login />} />
                         <Route path='/signup' element={<Signup />} />
-                        <Route path='/dashboard' element={<Dashboard />} />
                         <Route path='/profile' element={<Profile />} />
+
+                        { /*--------- admin -----------*/}
+                        <Route path='/dashboard' element={<Dashboard />} />
+
+                        { /*--------- error -----------*/}
                         <Route path='*' element={<Error404 />} />
                     </Routes>
                     <Footer />

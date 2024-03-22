@@ -40,10 +40,10 @@ export default function Signup() {
         })
             .then((res) => {
                 dispatch(login(res?.data));
-                toast.error("Something went Wrong!");
+                toast.error("Something Went Wrong...❌");
             })
             .catch((err) => {
-                toast.success("User login success");
+                toast.success("User Login Success...✅");
                 navigate("/");
             });
     };
@@ -186,7 +186,7 @@ export default function Signup() {
 
 
                 <p style={{ fontFamily: "Fenomen" }}>
-                    Already have account{" "}
+                    Already have account
                     <span
                         onClick={() => navigate("/login")}
                         role="button"

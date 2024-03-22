@@ -3,12 +3,12 @@ import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
 
-export default function ProtectedRoute({ Component }) {
+export const ProtectedRoute = ({ Component }) => {
     const navigate = useNavigate()
     useEffect(() => {
         let jsonData = localStorage.getItem("userLogin")
         let normalData = JSON.parse(jsonData)
-        if(!normalData){
+        if (!normalData) {
             navigate("/");
             toast.info("You are not Login....!")
         }
@@ -18,4 +18,21 @@ export default function ProtectedRoute({ Component }) {
             {Component}
         </>
     )
-}
+};
+
+export const AdminProtected = ({ Component }) => {
+    const navigate = useNavigate()
+    useEffect(() => {
+        let jsonData = localStorage.getItem("userLogin")
+        let normalData = JSON.parse(jsonData)
+        if (!normalData || normalData?.userType!=="admin") {
+            navigate("/");
+            toast.info("You are not Admin....!")
+        }
+    })
+    return (
+        <>
+            {Component}
+        </>
+    )
+};

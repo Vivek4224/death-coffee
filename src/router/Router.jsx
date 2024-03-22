@@ -10,6 +10,7 @@ import { Provider } from 'react-redux'
 import store from '../redux/app/store'
 import Dashboard from '../ui/pages/dashboard/Dashboard'
 import Profile from '../ui/pages/profile/Profile'
+import ProtectedRoute from './ProtectedRoute/ProtectedRoute'
 
 export default function Router() {
     return (
@@ -23,10 +24,10 @@ export default function Router() {
                         { /*--------- common -----------*/}
                         <Route path='/login' element={<Login />} />
                         <Route path='/signup' element={<Signup />} />
-                        <Route path='/profile' element={<Profile />} />
+                        <Route path='/profile' element={<ProtectedRoute Component={<Profile />} />}  />
 
                         { /*--------- admin -----------*/}
-                        <Route path='/dashboard' element={<Dashboard />} />
+                        <Route path='/dashboard' element={<Dashboard/>}/>
 
                         { /*--------- error -----------*/}
                         <Route path='*' element={<Error404 />} />

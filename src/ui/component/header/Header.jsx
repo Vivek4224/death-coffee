@@ -3,6 +3,7 @@ import "./header.css";
 import { NavLink } from "react-router-dom";
 import Logo from "../../../assets/img/logo.avif";
 import { useSelector } from "react-redux";
+import { Search } from "lucide-react";
 
 export default function Header() {
     const data = useSelector((state) => state.authSlice);
@@ -82,8 +83,7 @@ export default function Header() {
                                 )}
 
                                 <div className="search" style={{ paddingLeft: "1rem" }}>
-                                    <a href="#">
-                                        {" "}
+                                    <NavLink to="/searchbar">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             width="19"
@@ -98,7 +98,7 @@ export default function Header() {
                                                 fill="white"
                                             ></path>
                                         </svg>
-                                    </a>
+                                    </NavLink>
                                 </div>
 
                                 <div
@@ -229,7 +229,7 @@ export default function Header() {
                                 )}
 
                                 <div className="search" style={{ paddingLeft: "1rem" }}>
-                                    <a href="#">
+                                    <NavLink to="/searchbar">
                                         {" "}
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -245,7 +245,7 @@ export default function Header() {
                                                 fill="white"
                                             ></path>
                                         </svg>
-                                    </a>
+                                    </NavLink>
                                 </div>
 
                                 <div

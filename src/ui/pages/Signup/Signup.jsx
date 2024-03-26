@@ -50,7 +50,7 @@ export default function Signup() {
 
     return (
         <div className="form_container">
-            <h1 className="heading pb-5">User Register Form</h1>
+            <h1 className="heading pb-5">Create Account</h1>
             <Form
                 onSubmit={(e) => submitHandler(e)}
                 className="w-50 p-4 rounded-2 text-align-center m-auto"

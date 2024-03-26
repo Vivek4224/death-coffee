@@ -1,0 +1,32 @@
+.search_container {
+    padding-top: 10rem;
+    background-color: black;
+    padding-bottom: 2rem;
+}
+
+.search_container .heading {
+    font-size: 2.5rem;
+}
+
+.img img {
+    width: 30%;
+}
+
+.search_box {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #63181A;
+    padding: 2rem;
+}
+
+.search_box button {
+    margin-top: 1rem;
+    width: 50%;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    background-color: #63181A;
+    border: none;
+    color: white;
+    font-family: "Fenomen";
+}

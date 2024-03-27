@@ -37,7 +37,7 @@ export default function Header() {
                                 <a href="#">THE VOID</a>
                             </li>
                             <li className="right_li">
-                                <a href="#">ABOUT</a>
+                                <NavLink to={"/about"}>ABOUT</NavLink>
                             </li>
 
                             <div className="last_icons">
@@ -182,7 +182,7 @@ export default function Header() {
                                 <a href="#">THE VOID</a>
                             </li>
                             <li className="right_li">
-                                <a href="#">ABOUT</a>
+                                <NavLink to={"/about"}>ABOUT</NavLink>
                             </li>
 
                             <div className="last_icons">

@@ -36,7 +36,7 @@
     color: white;
     z-index: 11;
     margin-top: 5rem;
-    margin-left: 9rem;
+    margin-left: 9.5rem;
     text-align: center;
 }
 
@@ -76,7 +76,7 @@
     padding: 1rem;
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1300px) {
     .description {
         margin-left: 12rem;
     }

@@ -15,6 +15,7 @@ import {
     AdminProtected,
 } from "./ProtectedRoute/ProtectedRoute";
 import Search from "../ui/pages/search/Search";
+import About from "../ui/pages/About/About";
 
 export default function Router() {
     return (
@@ -33,6 +34,7 @@ export default function Router() {
                             element={<ProtectedRoute Component={<Profile />} />}
                         />
                         <Route path="/searchbar" element={<Search />} />
+                        <Route path="/about" element={<About />} />
 
                         {/*--------- admin -----------*/}
                         <Route

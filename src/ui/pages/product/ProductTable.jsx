@@ -101,7 +101,7 @@ export default function ProducttTable({
                                 <td>{i + 1}</td>
                                 <td>
                                     <img
-                                        style={{ height: "30px" }}
+                                        style={{ height: "60px" }}
                                         src={e?.thumbnail}
                                         alt="ajkkj"
                                     />

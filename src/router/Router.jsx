@@ -16,6 +16,7 @@ import {
 } from "./ProtectedRoute/ProtectedRoute";
 import Search from "../ui/pages/search/Search";
 import About from "../ui/pages/About/About";
+import Product from "../ui/pages/product/Product";
 
 export default function Router() {
     return (
@@ -41,6 +42,7 @@ export default function Router() {
                             path="/dashboard"
                             element={<AdminProtected Component={<Dashboard />} />}
                         />
+                        <Route path="/product" element={<Product />} />
 
                         {/*--------- error -----------*/}
                         <Route path="*" element={<Error404 />} />

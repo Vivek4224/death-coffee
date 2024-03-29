@@ -17,8 +17,8 @@ export default function Arrivals() {
                 <h1
                     className="heading"
                     style={{
-                        borderTop: "2px solid #63181A",
-                        borderBottom: "2px solid #63181A",
+                        borderTop: "2px solid #E12627",
+                        borderBottom: "2px solid #E12627",
                     }}
                 >
                     NEW ARRIVALS
@@ -29,7 +29,7 @@ export default function Arrivals() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -46,16 +46,16 @@ export default function Arrivals() {
                                 $25.00
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >
@@ -68,7 +68,7 @@ export default function Arrivals() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -85,16 +85,16 @@ export default function Arrivals() {
                                 $35.00
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >
@@ -107,7 +107,7 @@ export default function Arrivals() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -124,16 +124,16 @@ export default function Arrivals() {
                                 $38.00
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                                 <Star style={{ fill: "white" }} />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >
@@ -146,7 +146,7 @@ export default function Arrivals() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -163,16 +163,16 @@ export default function Arrivals() {
                                 $25.00
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                                 <Star style={{ fill: "white" }} />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >
@@ -185,7 +185,7 @@ export default function Arrivals() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -202,16 +202,16 @@ export default function Arrivals() {
                                 $25.99
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >
@@ -224,7 +224,7 @@ export default function Arrivals() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -241,16 +241,16 @@ export default function Arrivals() {
                                 $19.99
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                                 <Star style={{ fill: "white" }} />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >
@@ -263,7 +263,7 @@ export default function Arrivals() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -280,16 +280,16 @@ export default function Arrivals() {
                                 $26.99
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                                 <Star style={{ fill: "white" }} />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >
@@ -302,7 +302,7 @@ export default function Arrivals() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -319,16 +319,16 @@ export default function Arrivals() {
                                 $26.99
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                                 <Star style={{ fill: "white" }} />
                                 <Star style={{ fill: "white" }} />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >

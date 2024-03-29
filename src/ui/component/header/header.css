@@ -34,7 +34,7 @@ header {
 }
 
 .left_li a:hover {
-    color: #A42C35;
+    color: #E12627;
     text-decoration: underline;
 }
 
@@ -66,7 +66,7 @@ header {
 }
 
 .right_li a:hover {
-    color: #A42C35;
+    color: #E12627;
     text-decoration: underline;
 }
 
@@ -78,8 +78,4 @@ header {
 
 .last_icons svg {
     gap: 1rem;
-}
-
-.last_icons svg:hover {
-    color: #E12727;
 }

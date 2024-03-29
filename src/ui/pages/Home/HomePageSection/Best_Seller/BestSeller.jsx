@@ -21,8 +21,8 @@ export default function BestSeller() {
                 <h1
                     className="heading"
                     style={{
-                        borderTop: "2px solid #63181A",
-                        borderBottom: "2px solid #63181A",
+                        borderTop: "2px solid #E12627",
+                        borderBottom: "2px solid #E12627",
                     }}
                 >
                     BEST SELLERS
@@ -33,7 +33,7 @@ export default function BestSeller() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -50,16 +50,16 @@ export default function BestSeller() {
                                 $14.99
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >
@@ -72,7 +72,7 @@ export default function BestSeller() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -89,16 +89,16 @@ export default function BestSeller() {
                                 $19.99
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >
@@ -111,7 +111,7 @@ export default function BestSeller() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -128,16 +128,16 @@ export default function BestSeller() {
                                 $19.99
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                                 <Star style={{ fill: "white" }} />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >
@@ -150,7 +150,7 @@ export default function BestSeller() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -167,16 +167,16 @@ export default function BestSeller() {
                                 $19.99
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                                 <Star style={{ fill: "white" }} />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >
@@ -189,7 +189,7 @@ export default function BestSeller() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -206,16 +206,16 @@ export default function BestSeller() {
                                 $15.99
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                                 <Star style={{ fill: "white" }} />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >
@@ -228,7 +228,7 @@ export default function BestSeller() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -245,16 +245,16 @@ export default function BestSeller() {
                                 $38.00
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                                 <Star style={{ fill: "white" }} />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >
@@ -267,7 +267,7 @@ export default function BestSeller() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -284,16 +284,16 @@ export default function BestSeller() {
                                 $125.00
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                                 <Star style={{ fill: "white" }} />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >
@@ -306,7 +306,7 @@ export default function BestSeller() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -323,16 +323,16 @@ export default function BestSeller() {
                                 $19.99
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                                 <Star style={{ fill: "white" }} />
                                 <Star style={{ fill: "white" }} />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >
@@ -345,7 +345,7 @@ export default function BestSeller() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -362,16 +362,16 @@ export default function BestSeller() {
                                 $19.99
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >
@@ -384,7 +384,7 @@ export default function BestSeller() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -401,16 +401,16 @@ export default function BestSeller() {
                                 $25.00
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                                 <Star style={{ fill: "white" }} />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >
@@ -423,7 +423,7 @@ export default function BestSeller() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -440,16 +440,16 @@ export default function BestSeller() {
                                 $35.00
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                                 <Star style={{ fill: "white" }} />
                                 <Star style={{ fill: "white" }} />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >
@@ -462,7 +462,7 @@ export default function BestSeller() {
                         style={{
                             width: "18rem",
                             backgroundColor: "black",
-                            border: "2px solid #A1323A",
+                            border: "2px solid #E12627",
                             color: "white",
                             fontFamily: "Fenomen",
                             margin: "0.5rem",
@@ -479,16 +479,16 @@ export default function BestSeller() {
                                 $25.00
                             </CardSubtitle>
                             <CardText>
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
-                                <Star style={{ fill: "#63181A" }} color="#63181A" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
+                                <Star style={{ fill: "#E12627" }} color="#E12627" />
                             </CardText>
                             <Button
                                 style={{
                                     width: "100%",
-                                    backgroundColor: "#63181A",
+                                    backgroundColor: "#E12627",
                                     border: "none",
                                 }}
                             >

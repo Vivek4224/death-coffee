@@ -39,14 +39,14 @@ export default function Home() {
                     <h1
                         className="heading"
                         style={{
-                            borderTop: "2px solid #63181A",
-                            borderBottom: "2px solid #63181A",
+                            borderTop: "2px solid #E12627",
+                            borderBottom: "2px solid #E12627",
                         }}
                     >
                         JOIN THE FOLLOWING <br />
                         <a
                             href="https://www.instagram.com/deathwishcoffee/"
-                            style={{ fontSize: "1.5rem", color: "#951C23" }}
+                            style={{ fontSize: "1.5rem", color: "#E12627" }}
                         >
                             @DEATHWISHCOFFEE
                         </a>

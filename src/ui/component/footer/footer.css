@@ -7,7 +7,7 @@
 
 .email_container {
     text-align: center;
-    background-color: #63181A;
+    background-color: #E12627;
     padding: 2rem;
     color: black;
 }
@@ -61,7 +61,7 @@
 
 .accounts li a:hover {
     text-decoration: underline;
-    color: #9e151a;
+    color: #E12627;
 }
 
 .legal p {
@@ -81,7 +81,7 @@
 
 .legal li a:hover {
     text-decoration: underline;
-    color: #9e151a;
+    color: #E12627;
 }
 
 .company p {
@@ -101,7 +101,7 @@
 
 .company li a:hover {
     text-decoration: underline;
-    color: #9e151a;
+    color: #E12627;
 }
 
 .copy_container {

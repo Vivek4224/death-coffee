@@ -54,7 +54,7 @@ export default function Signup() {
             <Form
                 onSubmit={(e) => submitHandler(e)}
                 className="w-50 p-4 rounded-2 text-align-center m-auto"
-                style={{ border: "2px solid #63181A", }}
+                style={{ border: "2px solid #E12627", }}
             >
                 <div className="d-flex gap-5">
                     <div style={{ width: "100%" }}>
@@ -190,12 +190,12 @@ export default function Signup() {
                     <span
                         onClick={() => navigate("/login")}
                         role="button"
-                        style={{ color: "#63181A", textDecoration: "underline", letterSpacing: "1px" }}
+                        style={{ color: "#E12627", textDecoration: "underline", letterSpacing: "1px" }}
                     >
                         Login...!
                     </span>
                 </p>
-                <button style={{ backgroundColor: "#63181A", border: "none", padding: "0.5rem 1.5rem", color: "white", fontFamily: "Fenomen", borderRadius: "0.5rem" }} className="w-100">
+                <button style={{ backgroundColor: "#E12627", border: "none", padding: "0.5rem 1.5rem", color: "white", fontFamily: "Fenomen", borderRadius: "0.5rem" }} className="w-100">
                     Submit
                 </button>
             </Form>

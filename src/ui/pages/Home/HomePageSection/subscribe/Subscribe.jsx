@@ -22,7 +22,7 @@ export default function Subscribe() {
                     </p>
                     <Button
                         style={{
-                            backgroundColor: "#63181A",
+                            backgroundColor: "#E12627",
                             border: "none",
                             fontFamily: "fenomen",
                             padding: "1rem 1rem",

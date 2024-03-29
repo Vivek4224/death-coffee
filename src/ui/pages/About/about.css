@@ -116,3 +116,29 @@
     width: 100%;
     font-size: 1.1rem;
 }
+
+.year_section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-color: #201E1D;
+    padding-bottom: 2rem;
+    color: white;
+    width: 100%;
+}
+
+.year_heading {
+    color: #63181A;
+    font-size: 2rem;
+    font-family: "ravana";
+}
+
+.year_headings {
+    font-size: 1.2rem;
+    font-family: "ravana";
+}
+
+.year_paragraph {
+    font-family: "fenomen";
+}

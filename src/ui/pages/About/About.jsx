@@ -6,6 +6,10 @@ import s_icon from "../../../assets/img/icon-2.avif";
 import t_icon from "../../../assets/img/icon-3.avif";
 import first_img from "../../../assets/img/about-1.webp";
 import second_img from "../../../assets/img/about-2.webp";
+import year1 from "../../../assets/img/year1.avif";
+import year2 from "../../../assets/img/year2.avif";
+import year3 from "../../../assets/img/year3.avif";
+import year4 from "../../../assets/img/year4.avif";
 
 export default function About() {
     return (
@@ -113,7 +117,67 @@ export default function About() {
                     </div>
                 </div>
 
+                <div className="year_section">
+                    <div className="year_card-1 m-4 w-100">
+                        <div className="year_image">
+                            <img src={year1} alt="" />
+                        </div>
+                        <div className="year_heading">
+                            2020
+                        </div>
+                        <div className="year_headings">
+                            GOOD MORNING <br /> AMERICA
+                        </div>
+                        <div className="year_paragraph">
+                            “Good Morning America” airs a segment on Death Wish Coffee and introduces us to thousands of people.
+                        </div>
+                    </div>
 
+                    <div className="year_card-2 m-4 w-100">
+                        <div className="year_image">
+                            <img src={year2} alt="" />
+                        </div>
+                        <div className="year_heading">
+                            2021
+                        </div>
+                        <div className="year_headings">
+                            SUPER BOWL 50 <br /> AD AIRS
+                        </div>
+                        <div className="year_paragraph">
+                            We became the smallest company to run a commercial during Super Bowl 50 after winning the Intuit Small Business Big Game Competition.
+                        </div>
+                    </div>
+
+                    <div className="year_card-3 m-4 w-100">
+                        <div className="year_image">
+                            <img src={year3} alt="" />
+                        </div>
+                        <div className="year_heading">
+                            2022
+                        </div>
+                        <div className="year_headings">
+                            CAFFEINATED THE <br /> UNIVERSE
+                        </div>
+                        <div className="year_paragraph">
+                            With the help of NASA Food Labs, Death Wish Coffee developed an instant freeze-dried blend of our coffee to fuel astronauts on the International Space Station.
+                        </div>
+                    </div>
+
+                    <div className="year_card-4 m-4 w-100">
+                        <div className="year_image">
+                            <img src={year4} alt="" />
+                        </div>
+                        <div className="year_heading">
+                            2023-24
+                        </div>
+                        <div className="year_headings">
+                            NEW ROASTS AND <br /> FLAVORS
+                        </div>
+                        <div className="year_paragraph">
+                            Expanded beyond our original Dark Roast, adding Medium Roast & Espresso Roast to our everyday lineup and introducing flavors of Gingerdead and Blue and Buried.
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     );

@@ -1,0 +1,25 @@
+.paginate {
+    list-style: none;
+}
+
+.paginate li a {
+    color: white;
+    text-decoration: none;
+}
+
+.paginate li {
+    color: white;
+    font-family: "Fenomen";
+    border: 1px solid #E12627;
+    padding: 0.5rem;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.paginate li:hover {
+    background-color: #E12627;
+}
+
+.paginate li.selected {
+    background-color: #E12627;
+}

@@ -4,6 +4,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import { Eye, Pencil, Search, Trash } from "lucide-react";
 import ReactPaginate from "react-paginate";
+import "./ProductTable.css";
 export default function ProducttTable({
     refresh,
     refresHandler,
@@ -67,6 +68,7 @@ export default function ProducttTable({
         setPeginate({ ...paginate, page: e?.selected + 1 });
         refresHandler();
     };
+
     return (
         <div style={{ backgroundColor: "black", paddingTop: "4rem" }}>
             <div
@@ -126,7 +128,6 @@ export default function ProducttTable({
                     margin: "auto",
                     fontFamily: "Fenomen",
                     fontSize: "1.1rem",
-
                 }}
             >
                 <thead>
@@ -152,7 +153,7 @@ export default function ProducttTable({
                                 <td>₹{e?.price}</td>
 
                                 <td>
-                                    <div className="d-flex gap-3 justify-content-center">
+                                    <div className="d-flex gap-4 justify-content-center">
                                         <Eye role="button" onClick={() => Preview(e)} />
                                         <Pencil role="button" onClick={() => updateHandler(e)} />
                                         <Trash
@@ -170,13 +171,13 @@ export default function ProducttTable({
             <hr />
 
             <ReactPaginate
-                className="d-flex gap-3"
-                breakLabel="..."
-                nextLabel="next >"
+                className=" d-flex gap-3 justify-content-center text-light mb-0 pb-4 paginate"
+                breakLabel="....."
+                nextLabel="Next >"
                 onPageChange={handlePageClick}
                 pageRangeDisplayed={5}
                 pageCount={paginate.totalProduct / paginate.limit}
-                previousLabel="< previous"
+                previousLabel="< Previous"
                 renderOnZeroPageCount={null}
             />
         </div>

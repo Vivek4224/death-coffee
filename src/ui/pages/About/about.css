@@ -142,3 +142,9 @@
 .year_paragraph {
     font-family: "fenomen";
 }
+
+@media screen and (min-width:1300px) {
+    .hero_text {
+        left: 24rem;
+    }
+}

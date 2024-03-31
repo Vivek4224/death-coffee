@@ -46,10 +46,7 @@ export default function Product() {
     };
     return (
         <>
-            <div className="d-flex gap-2 justify-content-end mx-4 mt-2 mb-3">
-                <Button color="danger" onClick={toggle}>
-                    New Product
-                </Button>
+            <div className="d-flex gap-2 justify-content-end" style={{ paddingTop: "6rem" }}>
             </div>
             <ProducttModal
                 modal={modal}

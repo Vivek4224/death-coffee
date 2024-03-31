@@ -190,7 +190,7 @@ export default function Signup() {
                     <span
                         onClick={() => navigate("/login")}
                         role="button"
-                        style={{ color: "#E12627", textDecoration: "underline", letterSpacing: "1px" }}
+                        style={{ color: "#E12627", textDecoration: "underline", letterSpacing: "1px", marginLeft: "0.5rem" }}
                     >
                         Login...!
                     </span>

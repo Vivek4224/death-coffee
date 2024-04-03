@@ -4,19 +4,9 @@ import Select from "react-select";
 import { toast } from "react-toastify";
 import { Button, FormGroup, Form, Label, Input } from "reactstrap";
 
-const colorOptions = [
-    { value: "red", label: "Red" },
-    { value: "green", label: "Green" },
-    { value: "yellow", label: "Yellow" },
-    { value: "black", label: "Black" },
-    { value: "white", label: "White" },
-    { value: "blue", label: "Blue" },
-];
 const categoryOptions = [
-    { value: "casual", label: "casual" },
-    { value: "sports", label: "sports" },
-    { value: "formal", label: "formal" },
-    { value: "party-Wear", label: "party Wear" },
+    { value: "dark", label: "dark" },
+    { value: "light", label: "light" },
 ];
 
 export default function Product({
@@ -48,20 +38,6 @@ export default function Product({
     };
     // <---------
 
-    let selectHandler = (e, type) => {
-        if (type === "color") {
-            let color = e.map((e) => e.value);
-            setProduct({ ...product, color });
-        }
-    };
-    const checkHandler = (ee) => {
-        if (product.size.includes(ee)) {
-            let filter = product?.size((e) => e !== ee);
-            setProduct({ ...product, size: filter });
-        } else {
-            setProduct({ ...product, size: [...product.size, ee] });
-        }
-    };
     const updateHandler = () => {
         axios({
             method: "put",
@@ -118,51 +94,7 @@ export default function Product({
                         }
                     />
                 </FormGroup>
-                <FormGroup tag="fieldset">
-                    <Label>Gender</Label>
-                    <div className="d-flex w-100 gap-3">
-                        <FormGroup>
-                            <Input
-                                type="radio"
-                                className="me-2"
-                                checked={product.gender === "male"}
-                                onChange={() => setProduct({ ...product, gender: "male" })}
-                            />
-                            <Label>Male</Label>
-                        </FormGroup>
-                        <FormGroup disabled>
-                            <Input
-                                type="radio"
-                                className="me-2"
-                                checked={product?.gender === "female"}
-                                onChange={() => setProduct({ ...product, gender: "female" })}
-                            />
-                            <Label>Female</Label>
-                        </FormGroup>
-                        <FormGroup>
-                            <Input
-                                type="radio"
-                                className="me-2"
-                                checked={product?.gender === "kids"}
-                                onChange={() => setProduct({ ...product, gender: "kids" })}
-                            />
-                            <Label>Kids</Label>
-                        </FormGroup>
-                    </div>
-                </FormGroup>
 
-                <FormGroup>
-                    <Label for="color">Color</Label>
-                    <Select
-                        id="color"
-                        isMulti
-                        value={product.color?.map((color) => {
-                            return { value: color, label: color };
-                        })}
-                        options={colorOptions}
-                        onChange={(e) => selectHandler(e, "color")}
-                    />
-                </FormGroup>
                 <FormGroup>
                     <Label for="category">Category</Label>
                     <Select
@@ -229,33 +161,15 @@ export default function Product({
                         }
                     />
                 </FormGroup>
-                <Label for="checkBox40">Size</Label>
-                <FormGroup className="d-flex gap-2">
-                    {["41", "42", "43", "44", "45"]?.map?.((e, i) => {
-                        return (
-                            <div key={i}>
-                                <Input
-                                    id="checkBox40"
-                                    type="checkbox"
-                                    value={product?.size}
-                                    checked={product?.size?.includes?.(e)}
-                                    onChange={() => checkHandler(e)}
-                                    className="me-2"
-                                />
-                                <Label for="checkBox40">{e}</Label>
-                            </div>
-                        );
-                    })}
-                </FormGroup>
                 {updatemode ? (
-                    <Button color="danger" className="w-100" onClick={updateHandler}>
+                    <Button style={{ backgroundColor: "#E12627", border: "none", fontFamily: "Fenomen" }} className="w-100" onClick={updateHandler}>
                         Update
                     </Button>
                 ) : (
                     <Button
-                        color="danger"
                         className="w-100"
                         onClick={(e) => dataTransfer(e)}
+                        style={{ backgroundColor: "#E12627", border: "none", fontFamily: "Fenomen" }}
                     >
                         Submit
                     </Button>

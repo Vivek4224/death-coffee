@@ -1,4 +1,4 @@
-import { Table, Input, Button } from "reactstrap";
+import { Table, Button } from "reactstrap";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
@@ -103,7 +103,8 @@ export default function ProducttTable({
                             position: "absolute",
                             width: "3rem",
                             height: "2rem",
-                            left: "39.5rem",
+                            left: "37rem",
+                            alignSelf: "center",
                             color: "#E12627",
                             cursor: "pointer",
                         }}

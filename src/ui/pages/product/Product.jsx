@@ -1,19 +1,15 @@
 import React, { useState } from "react";
-import { Button, Input } from "reactstrap";
-import ProducttModal from "./ProductModal";
-import ProducttTable from "./ProductTable";
+import ProducttModal from "./productModel/ProductModal";
+import ProducttTable from "./productTable/ProductTable";
 const intialProduct = {
     title: "",
     description: "",
     brand: "",
-    gender: "",
     price: "",
     discountPercentage: "",
     availableStock: "",
     category: [],
     thumbnail: "",
-    color: [],
-    size: [],
 };
 
 export default function Product() {

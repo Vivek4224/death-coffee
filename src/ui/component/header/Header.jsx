@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, Navigate } from "react-router-dom";
 import Logo from "../../../assets/img/logo.avif";
 import { useSelector } from "react-redux";
 import { Search } from "lucide-react";
@@ -163,7 +163,7 @@ export default function Header() {
                                 <NavLink to="/dashboard">DASHBOARD</NavLink>
                             </li>
                             <li className="left_li">
-                                <a href="#">PRODUCTS</a>
+                                <NavLink to="/product">PRODUCTS</NavLink>
                             </li>
                             <li className="left_li">
                                 <a href="#">ORDERS</a>

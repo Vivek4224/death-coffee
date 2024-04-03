@@ -42,7 +42,7 @@ export default function Router() {
                             path="/dashboard"
                             element={<AdminProtected Component={<Dashboard />} />}
                         />
-                        <Route path="/product" element={<Product />} />
+                        <Route path="/product" element={<AdminProtected Component={<Product />} />} />
 
                         {/*--------- error -----------*/}
                         <Route path="*" element={<Error404 />} />

@@ -25,7 +25,24 @@ export const AdminProtected = ({ Component }) => {
     useEffect(() => {
         let jsonData = localStorage.getItem("userLogin")
         let normalData = JSON.parse(jsonData)
-        if (!normalData || normalData?.userType!=="admin") {
+        if (!normalData || normalData?.userType !== "admin") {
+            navigate("/");
+            toast.info("You are not Admin....!")
+        }
+    })
+    return (
+        <>
+            {Component}
+        </>
+    )
+};
+
+export const ProductProtected = ({ Component }) => {
+    const navigate = useNavigate()
+    useEffect(() => {
+        let jsonData = localStorage.getItem("userLogin")
+        let normalData = JSON.parse(jsonData)
+        if (!normalData || normalData?.userType !== "admin") {
             navigate("/");
             toast.info("You are not Admin....!")
         }

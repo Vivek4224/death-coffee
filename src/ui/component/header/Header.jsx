@@ -3,7 +3,6 @@ import "./header.css";
 import { NavLink, Navigate } from "react-router-dom";
 import Logo from "../../../assets/img/logo.avif";
 import { useSelector } from "react-redux";
-import { Search } from "lucide-react";
 
 export default function Header() {
     const data = useSelector((state) => state.authSlice);

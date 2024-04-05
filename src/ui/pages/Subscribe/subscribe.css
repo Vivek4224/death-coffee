@@ -1,0 +1,97 @@
+.save_container {
+    width: 100%;
+    padding-top: 6rem;
+    background-color: black;
+    color: white;
+}
+
+.img_container {
+    position: relative;
+}
+
+.img_container img {
+    width: 100%;
+    opacity: 0.8;
+}
+
+.text_container {
+    position: absolute;
+    top: 11rem;
+    left: 6rem;
+}
+
+.f_text {
+    font-family: "ravana";
+    font-size: 4rem;
+}
+
+.s_text {
+    font-size: 1.1rem;
+    font-family: "fenomenLight";
+}
+
+.society_heading h1 {
+    text-align: center;
+    padding-top: 1.5rem;
+    font-family: "ravana";
+    font-size: 3.5rem;
+}
+
+.society_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: white;
+    width: 100%;
+}
+
+.society_headings {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    font-family: "ravana";
+}
+
+.society_paragraph {
+    font-family: "fenomenLight";
+}
+
+.society_image img {
+    width: 35%;
+    padding-bottom: 1rem;
+}
+
+.firstOrder_container {
+    background-color: #201E1D;
+    text-align: center;
+    padding: 3rem;
+}
+
+.first_text {
+    font-family: "ravana";
+    font-size: 3.5rem;
+}
+
+.second_text {
+    font-size: 1.2rem;
+    font-family: "fenomenLight";
+}
+
+button {
+    width: 30%;
+    height: 2.5rem;
+    background-color: #E12627;
+    border: none;
+    color: white;
+}
+
+.first_btn {
+    padding-top: 1rem;
+    font-family: "fenomen";
+}
+
+.second_btn {
+    padding-top: 1rem;
+    font-family: "fenomen";
+}

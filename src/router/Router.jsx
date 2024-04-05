@@ -17,6 +17,7 @@ import {
 import Search from "../ui/pages/search/Search";
 import About from "../ui/pages/About/About";
 import Product from "../ui/pages/product/Product";
+import Subscribe from "../ui/pages/Subscribe/Subscribe";
 
 export default function Router() {
     return (
@@ -36,6 +37,7 @@ export default function Router() {
                         />
                         <Route path="/searchbar" element={<Search />} />
                         <Route path="/about" element={<About />} />
+                        <Route path="/subscribe" element={<Subscribe />} />
 
                         {/*--------- admin -----------*/}
                         <Route

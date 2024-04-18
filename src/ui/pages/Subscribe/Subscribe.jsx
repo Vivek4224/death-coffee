@@ -121,10 +121,10 @@ export default function Subscribe() {
                         exclusive access to new product releases.
                     </p>
                     <div className="first_btn">
-                        <button>BUILD YOUR SUBSCRIPTION</button>
+                        <button style={{ width: "30%" }}>BUILD YOUR SUBSCRIPTION</button>
                     </div>
                     <div className="second_btn">
-                        <button>LOG IN TO AN EXISTING SUBSCRIPTION</button>
+                        <button style={{ width: "30%" }}>LOG IN TO AN EXISTING SUBSCRIPTION</button>
                     </div>
                 </div>
             </div>

@@ -50,7 +50,7 @@ export default function Slider() {
                         <button
                             className="slider_btn"
                             style={{
-                                padding: "0.8rem 1rem",
+                                padding: "0.5rem 2rem",
                                 backgroundColor: "#E12627",
                                 border: "none",
                                 color: "white",
@@ -65,7 +65,7 @@ export default function Slider() {
                         </button>
                         <button
                             style={{
-                                padding: "0.8rem 1rem",
+                                padding: "0.5rem 2rem",
                                 backgroundColor: "#E12627",
                                 border: "none",
                                 color: "white",
@@ -119,7 +119,7 @@ export default function Slider() {
                         </p>
                         <button
                             style={{
-                                padding: "0.8rem 1rem",
+                                padding: "0.5rem 2rem",
                                 backgroundColor: "#E12627",
                                 border: "none",
                                 color: "white",
@@ -134,7 +134,7 @@ export default function Slider() {
                         </button>
                         <button
                             style={{
-                                padding: "0.8rem 1rem",
+                                padding: "0.5rem 2rem",
                                 backgroundColor: "#E12627",
                                 border: "none",
                                 color: "white",
@@ -182,11 +182,13 @@ export default function Slider() {
                                 marginBottom: "1rem",
                             }}
                         >
-                            Let warm, toasted coconut and decadent caramel fan the flames of  <br /> your inner fire. Available exclusively at deathwishcoffee.com
+                            Let warm, toasted coconut and decadent caramel fan the flames of{" "}
+                            <br /> your inner fire. Available exclusively at
+                            deathwishcoffee.com
                         </p>
                         <button
                             style={{
-                                padding: "0.8rem 1rem",
+                                padding: "0.5rem 2rem",
                                 backgroundColor: "#E12627",
                                 border: "none",
                                 color: "white",
@@ -201,7 +203,7 @@ export default function Slider() {
                         </button>
                         <button
                             style={{
-                                padding: "0.8rem 1rem",
+                                padding: "0.5rem 2rem",
                                 backgroundColor: "#E12627",
                                 border: "none",
                                 color: "white",
@@ -250,11 +252,14 @@ export default function Slider() {
                                 marginBottom: "1rem",
                             }}
                         >
-                            Want to earn the ultimate bragging and brewing rights? Society of <br /> Strong Coffee members get exclusive access to join Pitch Black or the <br /> Creamators for a nine-week showdown of who brews it best.
+                            Want to earn the ultimate bragging and brewing rights? Society of{" "}
+                            <br /> Strong Coffee members get exclusive access to join Pitch
+                            Black or the <br /> Creamators for a nine-week showdown of who
+                            brews it best.
                         </p>
                         <button
                             style={{
-                                padding: "0.8rem 1rem",
+                                padding: "0.5rem 2rem",
                                 backgroundColor: "#E12627",
                                 border: "none",
                                 color: "white",
@@ -269,7 +274,7 @@ export default function Slider() {
                         </button>
                         <button
                             style={{
-                                padding: "0.8rem 1rem",
+                                padding: "0.5rem 2rem",
                                 backgroundColor: "#E12627",
                                 border: "none",
                                 color: "white",
@@ -279,7 +284,8 @@ export default function Slider() {
                                 cursor: "pointer",
                             }}
                         >
-                            START A COFFEE SUBSCRIPTION                       </button>
+                            START A COFFEE SUBSCRIPTION{" "}
+                        </button>
                     </div>
                 </div>
             </Fade>

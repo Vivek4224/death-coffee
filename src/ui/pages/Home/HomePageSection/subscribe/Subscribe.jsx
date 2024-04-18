@@ -25,7 +25,7 @@ export default function Subscribe() {
                             backgroundColor: "#E12627",
                             border: "none",
                             fontFamily: "fenomen",
-                            padding: "1rem 1rem",
+                            padding: "0.5rem 2rem",
                             letterSpacing: "1px",
                         }}
                         className="btn"

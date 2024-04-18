@@ -17,7 +17,7 @@ export default function Header() {
                                 <a href="#">COFFEE</a>
                             </li>
                             <li className="left_li">
-                                <a href="#">SUBSCRIBE & SAVE</a>
+                                <NavLink to={"/subscribe"}>SUBSCRIBE & SAVE</NavLink>
                             </li>
                             <li className="left_li">
                                 <a href="#">MERCH</a>

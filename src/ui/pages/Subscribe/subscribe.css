@@ -94,3 +94,16 @@ button {
     padding-top: 1rem;
     font-family: "fenomen";
 }
+
+.title {
+    text-align: center;
+    margin-top: 2rem;
+    font-family: "Ravana";
+    font-size: 3.5rem;
+}
+
+.society_description {
+    font-family: "fenomenLight";
+    text-align: center;
+    font-size: 1.1rem;
+}
